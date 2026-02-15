@@ -1,0 +1,374 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{fullerDemarcatingScientificMedicine2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4b066e6d4e4dd0a7cf7f4b7fbec7ea79}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b066e6d4e4dd0a7cf7f4b7fbec7ea79}
+      \strng{fullhash}{4b066e6d4e4dd0a7cf7f4b7fbec7ea79}
+      \strng{bibnamehash}{4b066e6d4e4dd0a7cf7f4b7fbec7ea79}
+      \strng{authorbibnamehash}{4b066e6d4e4dd0a7cf7f4b7fbec7ea79}
+      \strng{authornamehash}{4b066e6d4e4dd0a7cf7f4b7fbec7ea79}
+      \strng{authorfullhash}{4b066e6d4e4dd0a7cf7f4b7fbec7ea79}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scientific medicine and homeopathy are interesting case studies for the ongoing project of demarcating science from pseudoscience. Much of the demarcation literature formulates abstract criteria for demarcating science from pseudoscience generally. In service of a more localist approach to the demarcation problem, I reconstruct a specific demarcating difference, the like comparison criterion, invoked by nineteenth century adherents to an early model of scientific medicine. If it is to remain relevant today, I argue that the like comparison criterion must be updated in our current era of epidemiological, evidence-based medicine to recognize the importance of assessing study bias and mechanistic implausibility in contemporary medical science.}
+      \field{journaltitle}{Studies in History and Philosophy of Science}
+      \field{title}{Demarcating Scientific Medicine}
+      \field{volume}{106}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{177\bibrangedash 185}
+      \range{pages}{9}
+      \keyw{Demarcation problem,Evidence-based medicine,Homeopathy,Like comparison,Philosophy of medicine,Scientific medicine}
+    \endentry
+    \entry{guyattGRADEGuidelines82011}{article}{}
+      \name{author}{17}{}{%
+        {{hash=babe806b174afc0531291082ee000b21}{%
+           family={Guyatt},
+           familyi={G\bibinitperiod},
+           given={Gordon\bibnamedelima H.},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=ad972c7b953d6f7d418d8afd8e29386e}{%
+           family={Oxman},
+           familyi={O\bibinitperiod},
+           given={Andrew\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=06ed7be2a4280b395edf6c7692e7b3be}{%
+           family={Kunz},
+           familyi={K\bibinitperiod},
+           given={Regina},
+           giveni={R\bibinitperiod}}}%
+        {{hash=82e2703e398272d799ca54045bee117e}{%
+           family={Woodcock},
+           familyi={W\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87bef0f5baa4c838e3dcfd9779b1e260}{%
+           family={Brozek},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b75db9aaf97abb7378f86696c50d4374}{%
+           family={Helfand},
+           familyi={H\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6cfedf4845fa92ecd3df70122c79b88a}{%
+           family={Alonso-Coello},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=48c89535d20aff94f174f039785a1b14}{%
+           family={Falck-Ytter},
+           familyi={F\bibinithyphendelim Y\bibinitperiod},
+           given={Yngve},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=561e90e4f971eff81044c673dc076de8}{%
+           family={Jaeschke},
+           familyi={J\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=679aa2814a8e5cccf21ac755109bcf48}{%
+           family={Vist},
+           familyi={V\bibinitperiod},
+           given={Gunn},
+           giveni={G\bibinitperiod}}}%
+        {{hash=4ca61686dc125837a0d9741be62f3427}{%
+           family={Akl},
+           familyi={A\bibinitperiod},
+           given={Elie\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e7f66a3d553242fcd196cd8150234e06}{%
+           family={Post},
+           familyi={P\bibinitperiod},
+           given={Piet\bibnamedelima N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=a525a045966bdba4bef45095aa2a5581}{%
+           family={Norris},
+           familyi={N\bibinitperiod},
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ee645b0d21dc9d128dee85c663d32329}{%
+           family={Meerpohl},
+           familyi={M\bibinitperiod},
+           given={Joerg},
+           giveni={J\bibinitperiod}}}%
+        {{hash=91f2c70b69009dce75c87a93c30c9930}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Vijay\bibnamedelima K.},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=450b21b1ee99008c630d5b85c4156d38}{%
+           family={Nasser},
+           familyi={N\bibinitperiod},
+           given={Mona},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3305d5b93b39a70e0533863661ea9212}{%
+           family={Schünemann},
+           familyi={S\bibinitperiod},
+           given={Holger\bibnamedelima J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d317957c3368b3016fc764cd5315987e}
+      \strng{fullhash}{36e303dcfdb6a11ed7dbc8dcd2d13eaa}
+      \strng{bibnamehash}{36e303dcfdb6a11ed7dbc8dcd2d13eaa}
+      \strng{authorbibnamehash}{36e303dcfdb6a11ed7dbc8dcd2d13eaa}
+      \strng{authornamehash}{d317957c3368b3016fc764cd5315987e}
+      \strng{authorfullhash}{36e303dcfdb6a11ed7dbc8dcd2d13eaa}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Direct evidence comes from research that directly compares the interventions in which we are interested when applied to the populations in which we are interested and measures outcomes important to patients. Evidence can be indirect in one of four ways. First, patients may differ from those of interest (the term applicability is often used for this form of indirectness). Secondly, the intervention tested may differ from the intervention of interest. Decisions regarding indirectness of patients and interventions depend on an understanding of whether biological or social factors are sufficiently different that one might expect substantial differences in the magnitude of effect. Thirdly, outcomes may differ from those of primary interest—for instance, surrogate outcomes that are not themselves important, but measured in the presumption that changes in the surrogate reflect changes in an outcome important to patients. A fourth type of indirectness, conceptually different from the first three, occurs when clinicians must choose between interventions that have not been tested in head-to-head comparisons. Making comparisons between treatments under these circumstances requires specific statistical methods and will be rated down in quality one or two levels depending on the extent of differences between the patient populations, co-interventions, measurements of the outcome, and the methods of the trials of the candidate interventions.}
+      \field{journaltitle}{Journal of Clinical Epidemiology}
+      \field{number}{12}
+      \field{title}{{{GRADE}} Guidelines: 8. {{Rating}} the Quality of Evidence—Indirectness}
+      \field{volume}{64}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{1303\bibrangedash 1310}
+      \range{pages}{8}
+      \keyw{Applicability,Generalizability,GRADE,Indirect comparisons,Indirectness,Quality of evidence}
+    \endentry
+    \entry{hahnemannOrganonMedicalArt1996}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ee68c4f7275a969e8ce6eea70142141e}{%
+           family={Hahnemann},
+           familyi={H\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=adb9612aa6c203fac022d792e38196ea}{%
+           family={Brewster\bibnamedelima O'Reilley},
+           familyi={B\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Wenda},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Redmond}%
+      }
+      \list{publisher}{1}{%
+        {Birdcage Books}%
+      }
+      \strng{namehash}{ee68c4f7275a969e8ce6eea70142141e}
+      \strng{fullhash}{ee68c4f7275a969e8ce6eea70142141e}
+      \strng{bibnamehash}{ee68c4f7275a969e8ce6eea70142141e}
+      \strng{authorbibnamehash}{ee68c4f7275a969e8ce6eea70142141e}
+      \strng{authornamehash}{ee68c4f7275a969e8ce6eea70142141e}
+      \strng{authorfullhash}{ee68c4f7275a969e8ce6eea70142141e}
+      \strng{editorbibnamehash}{adb9612aa6c203fac022d792e38196ea}
+      \strng{editornamehash}{adb9612aa6c203fac022d792e38196ea}
+      \strng{editorfullhash}{adb9612aa6c203fac022d792e38196ea}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Organon of the {{Medical Art}}}
+      \field{year}{1996}
+      \field{dateera}{ce}
+    \endentry
+    \entry{higginsRevisedCochraneRiskofbias2019}{manual}{}
+      \name{author}{4}{}{%
+        {{hash=b6750ef7d49e3489c3f80cb4562765a7}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={Julian\bibnamedelimb P.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=e593a09a82db3e23ba06f376cf1f6554}{%
+           family={Savović},
+           familyi={S\bibinitperiod},
+           given={Jelena},
+           giveni={J\bibinitperiod}}}%
+        {{hash=016b86afb0a98379bf77b3f074f34761}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=44eae464723756680d789b1a193c3efc}{%
+           family={Sterne},
+           familyi={S\bibinitperiod},
+           given={Jonathan\bibnamedelimb A.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=b6750ef7d49e3489c3f80cb4562765a7}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={Julian\bibnamedelimb P.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=e593a09a82db3e23ba06f376cf1f6554}{%
+           family={Savović},
+           familyi={S\bibinitperiod},
+           given={Jelena},
+           giveni={J\bibinitperiod}}}%
+        {{hash=016b86afb0a98379bf77b3f074f34761}{%
+           family={Page},
+           familyi={P\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=44eae464723756680d789b1a193c3efc}{%
+           family={Sterne},
+           familyi={S\bibinitperiod},
+           given={Jonathan\bibnamedelimb A.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {RoB2 Development Group}%
+      }
+      \strng{namehash}{620d016efadc8dd3d8b1ebd809a51616}
+      \strng{fullhash}{0fb98f54cff6a6cf542f1c7752a8effe}
+      \strng{bibnamehash}{0fb98f54cff6a6cf542f1c7752a8effe}
+      \strng{authorbibnamehash}{0fb98f54cff6a6cf542f1c7752a8effe}
+      \strng{authornamehash}{620d016efadc8dd3d8b1ebd809a51616}
+      \strng{authorfullhash}{0fb98f54cff6a6cf542f1c7752a8effe}
+      \strng{nameabibnamehash}{0fb98f54cff6a6cf542f1c7752a8effe}
+      \strng{nameanamehash}{620d016efadc8dd3d8b1ebd809a51616}
+      \strng{nameafullhash}{0fb98f54cff6a6cf542f1c7752a8effe}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{nameatype}{collaborator}
+      \field{title}{Revised {{Cochrane}} Risk-of-Bias Tool for Randomized Trials ({{RoB}} 2)}
+      \field{type}{manual}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{oreskesPercheFidarsiScienza2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=501a5d332cf44e7476c517cc4f69060e}{%
+           family={Oreskes},
+           familyi={O\bibinitperiod},
+           given={Naomi},
+           giveni={N\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=95aa0bcff5c409e5f67112420affd178}{%
+           family={Bertola},
+           familyi={B\bibinitperiod},
+           given={Bianca},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Torino}%
+      }
+      \list{publisher}{1}{%
+        {Bollati Boringhieri}%
+      }
+      \strng{namehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{fullhash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{bibnamehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{authorbibnamehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{authornamehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{authorfullhash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{translatorbibnamehash}{95aa0bcff5c409e5f67112420affd178}
+      \strng{translatornamehash}{95aa0bcff5c409e5f67112420affd178}
+      \strng{translatorfullhash}{95aa0bcff5c409e5f67112420affd178}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{italian}
+      \field{title}{Perchè fidarsi della scienza?}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \keyw{Scienze -- Rapporti -- con la -- Società}
+    \endentry
+    \entry{perillatClinicalRecommendationsRole2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e551188521193bffac87d184dac567c5}{%
+           family={Perillat},
+           familyi={P\bibinitperiod},
+           given={Lucie},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5517d0869ccb2c5b66b4c39278c52149}{%
+           family={Mercuri},
+           familyi={M\bibinitperiod},
+           given={Mathew},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65c9a8d2ea3a512370ea38eed576fa86}
+      \strng{fullhash}{65c9a8d2ea3a512370ea38eed576fa86}
+      \strng{bibnamehash}{65c9a8d2ea3a512370ea38eed576fa86}
+      \strng{authorbibnamehash}{65c9a8d2ea3a512370ea38eed576fa86}
+      \strng{authornamehash}{65c9a8d2ea3a512370ea38eed576fa86}
+      \strng{authorfullhash}{65c9a8d2ea3a512370ea38eed576fa86}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework has become one of the most influential frameworks for assessing quality of research and developing clinical recommendations. The GRADE framework has been presented as an evolution in the Evidence-Based Medicine (EBM) movement. Both GRADE and EBM emphasize effect estimates derived from population-level clinical trials and, as a consequence, devalue the role of mechanisms as the basis for clinical decisions. Although mechanisms do not hold the epistemic privilege of rigorous clinical trials in EBM reasoning, this paper will argue that mechanisms appear to be important in the use and application of GRADE, as described in the literature. The seemingly necessary role of mechanisms in the development of clinical recommendations has, so far, received little attention and is not explicitly featured in the literature describing GRADE. The analysis of the GRADE framework presented in this paper reveals an apparent tension between EBM's willingness to downplay mechanisms and what seems their inevitable use in GRADE. In this paper, we take the position that if mechanistic reasoning is inevitable in the use of GRADE, then the instructional literature on the framework would benefit from more explicit discussion of how to consider and integrate mechanisms.}
+      \field{journaltitle}{Studies in History and Philosophy of Science}
+      \field{title}{Clinical Recommendations: {{The}} Role of Mechanisms in the {{GRADE}} Framework}
+      \field{volume}{96}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \keyw{Clinical decision-making,Clinical evidence,Clinical recommendations,Evidence-based medicine,GRADE,Mechanisms}
+    \endentry
+    \entry{turnerEvaluatingUKHouse2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=17b4f862875c065b7b5000f09d64ee08}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{17b4f862875c065b7b5000f09d64ee08}
+      \strng{fullhash}{17b4f862875c065b7b5000f09d64ee08}
+      \strng{bibnamehash}{17b4f862875c065b7b5000f09d64ee08}
+      \strng{authorbibnamehash}{17b4f862875c065b7b5000f09d64ee08}
+      \strng{authornamehash}{17b4f862875c065b7b5000f09d64ee08}
+      \strng{authorfullhash}{17b4f862875c065b7b5000f09d64ee08}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In 2009, the UK House of Commons Science and Technology Committee (STC) conducted an ‘evidence check’ on homeopathy to evaluate evidence for its effectiveness. In common with the wider literature critical of homeopathy, the STC report seems to endorse many of the strong claims that are made about its implausibility. In contrast with the critical literature, however, the STC report explicitly does not place any weight on implausibility in its evaluation. I use the contrasting positions of the STC and the wider critical literature to examine the ‘implausibility arguments’ against homeopathy and the place of such arguments within evidence-based medicine (EBM). I argue that the STC report undervalues its strong claims about the mechanistic plausibility of homeopathy because it relies on a misunderstanding about the role of mechanistic evidence within EBM. This is not a conclusion for a revision of the role mechanistic evidence plays within EBM, however. It is a conclusion about the inconsistency of the STC report’s position towards implausibility arguments, given the evidential claims they endorse and the atypical situation that homeopathy presents. It provides a further example of the general point that mechanistic reasoning should not be seen as providing categorically lower quality evidence.}
+      \field{day}{1}
+      \field{journaltitle}{Theoretical Medicine and Bioethics}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{shortjournal}{Theoretical Medicine and Bioethics}
+      \field{title}{Evaluating the {{UK House}} of {{Commons Science}} and {{Technology Committee}}’s Position on the Implausible Effectiveness of Homeopathic Treatments}
+      \field{volume}{38}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{335\bibrangedash 352}
+      \range{pages}{18}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

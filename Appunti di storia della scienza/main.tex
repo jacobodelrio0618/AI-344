@@ -1,0 +1,122 @@
+%Document Properties
+\documentclass[a4paper, 14pt, twoside, onehalfspacing]{extarticle}
+\title{Storia moderna}
+\date{}
+\author{Jacobo del Rio Molano}
+
+\usepackage{preamble}
+
+% Bibliography Packages and management commands (to be put here in order for the
+% bibliographic autocomplete to work)
+
+\usepackage[backend=biber, style=philosophy-verbose, latinemph = true,
+language=italian, sorting=nyt, autopunct=false]{biblatex}
+\usepackage[style=italian, autopunct=false]{csquotes}
+\DefineBibliographyStrings{italian}{loccit = {ibid\adddot}, pages = {pp\adddot}}
+\addbibresource{bibliography.bib}
+\renewcommand{\mkcitation}[1]{#1}
+\newenvironment*{smallquote}{\quote\smaller}{\endquote}
+\SetBlockEnvironment{smallquote} \AtBeginEnvironment{quote}{\smaller}
+
+\makeindex[title=Indice dei nomi]
+\indexsetup{firstpagestyle=empty}
+
+\begin{document}
+%Postnotes headers and title determination. When using with «babel» one must use
+%the command «\addto», which only works after «\begin{document}».
+\addto\extrasitalian{\renewcommand*{\pntitle}{Note}}
+\addto\extrasitalian{\renewcommand*{\pnhdnotes}{Note}}
+\addto\extrasitalian{\renewcommand*{\pnhdtopage}{a p.}}
+\addto\extrasitalian{\renewcommand*{\pnhdtopages}{a pp.}}
+
+\blankpage
+
+\begin{titlepage}
+	\thispagestyle{empty}
+	\singlespacing
+		\begin{figure}[!htb]
+			\centering
+			\includegraphics[keepaspectratio=true,scale=0.5]{Images/cherubinFrontespizio.eps}
+		\end{figure}
+
+		\begin{center}
+			\LARGE{UNIVERSITÀ DI PISA} \\
+			\vspace{5mm}
+
+			\normalsize{DIPARTIMENTO DI CIVILTÀ E FORME DEL SAPERE \\
+			ANNO ACCADEMICO {\fontfamily{nf}\selectfont 2025-2026}}\\
+			\vspace{10mm}
+
+			\normalsize{CORSO DI LAUREA \\ IN FILOSOFIA}\\%
+			\vspace{5mm}%
+			\normalsize{CLASSE {\fontfamily{nf}\selectfont L-5}: FILOSOFIA}\\%
+			\vspace{15mm}
+
+			\huge{\textsc{Storia moderna}}
+			
+		\end{center}
+
+		\vspace{3cm}
+		
+		\begin{minipage}[t]{0.47\textwidth}
+			\begin{center}
+				\normalsize{\textit{Titolare}}\\
+				\normalsize{PROF. ANDREA ADDOBBATI}
+			\end{center}
+		\end{minipage}
+		\hfill
+		\begin{minipage}[t]{0.47\textwidth}\raggedleft%
+			\begin{center}
+				\normalsize{\textit{Studente}}\\
+				\normalsize{JACOBO DEL RIO MOLANO}
+			\end{center}
+		\end{minipage}
+\end{titlepage}
+
+\thispagestyle{empty}
+	\settowidth{\versewidth}{Si, como dice el griego en el Cratilo}
+	\begin{verse}[\versewidth]
+		\footnotesize
+		\begin{flushright}
+		Sediento de saber lo que Dios sabe,\\
+		Judá León se dio a permutaciones \\ 
+		de letras y a complejas variaciones \\
+		y al fin pronunció el nombre que es la Clave,
+
+		La Puerta, el Eco, el Huésped y el Palacio, \\
+		sobre un muñeco que con torpes manos \\
+		labró, para enseñarle los arcanos \\
+		de las Letras, del Tiempo y del Espacio
+		
+		\vspace{5pt}
+		Jorge Luis Bórges, \textit{El Gólem}, 1959.
+		\end{flushright}
+	\end{verse}
+\section*{Introduzione}
+
+\section{Section Title \\
+\smaller{\textit{Subtitle}}}
+
+    \subfile{./Subsections/Of Section 1/L1 18-09-2025.tex}
+    \subfile{./Subsections/Of Section 1/L4 02-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L2 02-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L5 08-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L6 09-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L7 15-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L8 16-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L9 22-10-2025.tex}
+    \subfile{./Subsections/Of Section 1/L10 23-10.2025.tex}
+    \subfile{./Subsections/Of Section 1/L10 05-11-2025.tex}
+    \subfile{./Subsections/Of Section 1/L11 06-11-2025.tex}
+    \subfile{./Subsections/Of Section 1/L12 12-11-2025.tex}
+    \subfile{./Subsections/Of Section 1/L13 13-11-2025.tex}
+    \subfile{./Subsections/Of Section 1/L14 26-11-2025.tex}
+
+\printbibliography[keyword={primary},title={Bibliografia primaria}]
+\pagestyle{empty}
+\printbibliography[keyword={secondary},title={Bibliografia critica}]
+\pagestyle{empty}
+\printindex
+\section*{Contenuti}
+\tableofcontents
+\end{document}

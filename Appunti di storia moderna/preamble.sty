@@ -1,0 +1,211 @@
+%cspell:disable
+\ProvidesPackage{preamble}
+
+%Style and general Packages
+\usepackage[utf8]{inputenc}
+\usepackage[main=italian, latin, polutonikogreek, english]{babel}
+\usepackage[or]{teubner} % This is for ancient Greek.
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage[raggedright]{titlesec}
+\usepackage{graphicx}
+\usepackage{verse}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage[footnotesep=30pt, a4paper,top=4cm,bottom=3cm,left=3cm,right=3cm]{geometry}
+\usepackage{setspace}
+\usepackage[indent, skip=0pt]{parskip}
+\usepackage{changepage}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fitch} 
+\usepackage{ebproof}
+\usepackage{forest}
+\usepackage{booktabs} % For \midrule macro.
+\usepackage{caption}
+\usepackage{verse}
+\usepackage{postnotes}
+\usepackage[osf]{ebgaramond}
+\usepackage{imakeidx} % For the index of names.
+\usepackage{ifthen} % Index of names.
+\usepackage{xparse} % Indez of names.
+\usepackage[norule, flushmargin, abovefloats]{footmisc}
+\usepackage{setspace}
+\usepackage{relsize}
+\usepackage{subfiles} % Best loaded last in the preamble
+
+% Command for single quotes
+\def\bsq#1{
+\lq{#1}\rq}
+
+
+% «$^{,~}$» is a dirty little trick to put endnotes besides footnotes (the class «footmisc» won't work with endnotes or postnotes).
+\postnotesetup{
+	makemark = {#2\hbox{\@textsuperscript{\normalfont#1}}#3} ,
+	maketextmark = {#2\hbox{\@textsuperscript{\normalfont#1~[p. \pnthepage]}}#3} 
+}
+
+% Index of names setup
+
+	%% Definition of macros
+	%% Initpers is used, when the person is first mentioned.  It takes 4
+	%% arguments:
+	%%   #1: Output in the text (optional)
+	%%   #2: Name (mandatory)
+	%%   #3: Surname (mandatory)
+	%%   #4: Description (mandatory but most of the time empty)
+	%% 
+	\newcommand{\initpersold}[4][]{%
+	% output the name and surname into the text. If the optional
+	% argument #1 is given, use this, else use the mandatory arguments
+	% #2 and #3
+	\ifthenelse{\equal{#1}{}}{
+		{#3 #2}}{%
+		#1}%
+	% Now, insert Name, Surname and the Description (if given) into the index.
+	\ifthenelse{\equal{#4}{}}{%
+		\index{#2@#2, #3}}{%
+		\index{#2@#2, #3 (#4)}}%
+	}%
+	%% This macro shall be used, whenever a person, which was already
+	%% introduced, shall be mentioned again.  In this case, only the name
+	%% is used.  
+	\newcommand{\persold}[1]{%
+	% output the name into the text, enter it into the index.
+	% #1\index{#1}
+	#1\index{#1@#1}%
+	}%
+	\newcommand{\displayname}[2]{%
+	#1 #2%
+	}
+	\newcommand{\descriptionformat}[3]{%
+	#1, #2 (#3)%
+	}
+	\newcommand{\nodescriptionformat}[2]{%
+	#1, #2%
+	}
+	\ExplSyntaxOn
+	\newcommand{\propextractname}[1]{%
+	\prop_item:Nn \g_jan_person_prop {#1}%
+	}
+	\newcommand{\propextractdescription}[1]{%
+	\displayname{\prop_item:Nn \g_jan_person_prop {#1}}{(\prop_item:Nn \g_jan_person_prop {#1-description})}%
+	}
+	\prop_new:N \g_jan_person_prop
+	\seq_new:N \g_jan_personused_seq
+	\NewDocumentCommand{\InitPerson}{o+m+m+o}{%
+	\IfNoValueTF{#1}{%
+		\displayname{#3}{#2}%
+	}{%
+		#1%
+	}%
+	\IfValueTF{#4}{%
+		\prop_gput:Nnn \g_jan_person_prop {#2-description} {#4}
+		\index{\descriptionformat{#2}{#3}{#4}} 
+	}{
+		\index{\nodescriptionformat{#2}{#3}}
+	}
+	\prop_gput:Nnn \g_jan_person_prop {#2} {#3}
+	}
+	\NewDocumentCommand{\Person}{+m}{%
+	#1%
+	\prop_if_in:NnTF \g_jan_person_prop {#1} 
+	{
+		\prop_if_in:NnTF \g_jan_person_prop {#1-description}  
+		{
+		\typeout{Yes: #1}
+		\index{#1,~\propextractdescription{#1}}
+		}{
+		\index{#1,~\propextractname{#1}}
+		}
+	}{
+		\index{#1}
+	}
+	}
+	\ExplSyntaxOff
+
+%This snippet allows to insert a blank page (without style) with the command «\blankpage».
+\def\blankpage{
+	\clearpage
+	\thispagestyle{empty}
+	\null
+	\clearpage}
+
+%Headers and Footers Formatting
+\renewcommand{\headrulewidth}{0pt}
+
+
+\pagestyle{fancy}
+\fancyhead{} %  all header fields
+\fancyhead[LE, RO]{
+    % \thepage
+    }  
+\fancyhead[RE]{
+        % \scshape\MakeLowercase{\leftmark}
+    }	  
+\fancyhead[LO]{
+        % \scshape\MakeLowercase{\rightmark}
+    }
+\fancyfoot[C]{\thepage} % clear all footer fields
+
+%Titles Formatting
+
+	% Title formatting for documents with 'parts' (longer documents).
+
+		% \counterwithin*{footnote}{section}% Command for the footnote number to restart after each section.
+		% \setcounter{secnumdepth}{4} \setcounter{tocdepth}{4}
+
+		% \titleformat{\section}{\LARGE\centering\scshape\lowercase}{}{0pt}{\citereset}
+		% \titleformat{\subsection}[display]{\nohyphenation\LARGE\vspace{30pt}}{\thesubsection}{5pt}{}
+		% \titleformat{\subsubsection}[block]{\nohyphenation\singlespacing\large\needspace{2\baselineskip}}{\normalfont\thesubsubsection.}{8pt}{}[\vspace{1ex}]
+		% \titleformat{\paragraph}{\nohyphenation\normalsize\needspace{2\baselineskip}}{\normalfont\theparagraph.}{8pt}{}[\vspace{1ex}]
+
+		% \AddToHook{cmd/section/before}{\newpage\thispagestyle{empty}}
+		% \AddToHook{cmd/subsection/before}{\newpage\thispagestyle{empty}}
+
+		% \renewcommand{\thesection}{}
+		% \renewcommand{\thesubsection}{\arabic{subsection}}
+		% \renewcommand{\thesubsubsection}{\arabic{subsection}.\arabic{subsubsection}}
+		% \renewcommand{\theparagraph}{\arabic{subsection}.\arabic{subsubsection}.\arabic{paragraph}}
+
+		% \titlespacing*{\subsection}{5pt}{30pt}{80pt}[3cm]
+		% \titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}[4cm]
+		% \titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}[4cm]
+
+	% Title formatting for documents without 'parts' (shorter documents).
+
+		\titleformat{\section}[display]{\nohyphenation\singlespacing\LARGE\vspace{30pt}}{\thesection}{5pt}{}
+		\titleformat{\subsection}[block]{\nohyphenation\singlespacing\large\needspace{2\baselineskip}}{\normalfont\thesubsection.}{8pt}{}[\vspace{1ex}]
+		\titleformat{\subsubsection}{\nohyphenation\normalsize\needspace{2\baselineskip}}{\normalfont\thesubsubsection.}{8pt}{}[\vspace{1ex}]
+
+		\AddToHook{cmd/section/before}{\newpage}
+
+		\renewcommand{\thesection}{\arabic{section}}
+		\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+		\renewcommand{\thesubsubsection}{\arabic{subsection}.\arabic{subsubsection}}
+
+		\titlespacing*{\section}{5pt}{30pt}{80pt}[3cm]
+		\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}[4cm]
+		\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1em}[4cm]
+
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\renewcommand{\subsectionmark}[1]{\markright{#1}}
+
+\renewcommand{\thepostnote}{\roman{postnote}}
+\renewcommand{\footnotelayout}{\hspace{0.3em}}
+%The following two commands must have the same values.
+\renewcommand{\hangfootparindent}{1.3em}
+\renewcommand{\footnotemargin}{1.3em}
+
+\renewcommand\tableofcontents{\@starttoc{toc}}
+
+\raggedbottom
+
+
+
+
+
+
+

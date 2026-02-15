@@ -1,0 +1,69 @@
+\documentclass{beamer}
+\usepackage{preamble}
+
+\title{\textit{Demarcating scientific Medicine} \\ Jonathan Fuller}
+\subtitle{Storia della scienza: temi avanzati 2025-26}
+\author{Jacobo del Río Molano}
+\institute{Università di Pisa. %
+Dipartimento di civitlà e forme del sapere}
+\date{\today}
+
+
+\usepackage[
+    backend=biber, 
+    style=philosophy-verbose, 
+    latinemph = true,
+    language=italian, 
+    sorting=nyt, 
+    autopunct=false
+]
+{biblatex}
+
+\usepackage[
+    style=italian,
+    autopunct=false]
+{csquotes}
+
+\DefineBibliographyStrings{italian}{
+    loccit = {ibid\adddot}, 
+    pages = {pp\adddot}, 
+    opcit = {\unskip\addcomma\addspace cit\adddot}, 
+} 
+
+\addbibresource{bibliography.bib}
+
+% Command to add a comma before "cit.,".
+\renewcommand{\mkcitation}[1]{#1}
+\newenvironment*{smallquote}{\quote\smaller}{\endquote}
+\SetBlockEnvironment{smallquote} \AtBeginEnvironment{quote}{\smaller}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}{Contenuti}
+    \tableofcontents[sections={1-2}]
+\end{frame}
+
+\begin{frame}{Contenuti}
+    \tableofcontents[sections={3-4}]
+\end{frame}
+
+\subfile{./Sections/§ 1.tex}
+\subfile{./Sections/§ 2.tex}
+\subfile{./Sections/§ 3.tex}
+\subfile{./Sections/§ 4.tex}
+
+\section{}
+
+\setbeamertemplate{frametitle continuation}{}
+\setbeamertemplate{bibliography item}{}
+\defbibheading{bibsection}{\subsection*{#1}}
+\begin{frame}[allowframebreaks]{Bibliografia}
+    \renewcommand*{\bibfont}{\scriptsize}
+    \printbibliography[heading=bibsection]
+\end{frame}
+
+\end{document}

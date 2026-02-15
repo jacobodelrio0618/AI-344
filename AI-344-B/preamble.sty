@@ -1,0 +1,74 @@
+
+\ProvidesPackage{preamble}
+
+\usetheme{Szeged} 
+\usefonttheme{serif}
+
+\usepackage[utf8]{inputenc}
+\usepackage[main=italian, latin, polutonikogreek, english]{babel}
+\usepackage[or]{teubner} % This is for ancient Greek.
+\usepackage[T1]{fontenc}
+\usepackage[osf]{ebgaramond}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{subfiles}
+\usepackage{cleveref}
+% \usepackage[implicit=true]{hyperref} % Always last package
+
+\crefname{table}{\tablename}{\tablenames}
+\Crefname{table}{\tablename}{\tablenames}
+
+\crefname{figure}{\figurename}{\figurenames}
+\Crefname{figure}{\figurename}{\figurenames}
+
+% Command for single quotes
+\def\bsq#1{
+\lq{#1}\rq}
+
+\definecolor{CustomBackground}{HTML}{161616} 
+\definecolor{DarkBackground}{HTML}{101010} 
+\definecolor{CustomText}{HTML}{f2f4f8}
+\definecolor{MinimalAccent}{HTML}{9393C1}
+
+
+% Colours for the Footer and Heading
+\setbeamercolor{section in head/foot}{
+    fg=MinimalAccent, 
+    bg=DarkBackground
+} 
+\setbeamercolor{subsection in head/foot}{
+    fg=MinimalAccent,
+    bg=DarkBackground
+} 
+\setbeamercolor{institute in head/foot}{
+    fg=MinimalAccent, 
+    bg=DarkBackground
+}
+\setbeamercolor{footline}{
+    fg=MinimalAccent, 
+    bg=CustomBackground
+}
+\setbeamercolor{title in foot}{
+    fg=MinimalAccent
+}
+
+% Global Background and Normal Text
+\setbeamercolor{background canvas}{bg=CustomBackground}
+\setbeamercolor{normal text}{fg=CustomText}
+\setbeamercolor{structure}{fg=MinimalAccent, bg=CustomBackground}
+\setbeamercolor{title page}{fg=CustomText, bg=CustomBackground}
+\setbeamercolor{frametitle}{fg=CustomText, bg=CustomBackground}
+
+% Separation Lines Colours
+\setbeamercolor{separation line}{bg=DarkBackground}
+\setbeamercolor{lower separation line head}{bg=DarkBackground}
+\setbeamercolor{upper separation line foot}{bg=DarkBackground}
+\setbeamercolor{lower separation line foot}{bg=DarkBackground}
+
+% Remove navigation symbols for a cleaner look
+\setbeamertemplate{navigation symbols}{} 
+
+% Number tables; beamer suppresses numbering by default 
+\setbeamertemplate{caption}[numbered]

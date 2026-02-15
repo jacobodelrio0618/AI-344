@@ -1,0 +1,65 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{oreskesPercheFidarsiScienza2021}{book}{}
+      \name{author}{1}{}{%
+        {{hash=501a5d332cf44e7476c517cc4f69060e}{%
+           family={Oreskes},
+           familyi={O\bibinitperiod},
+           given={Naomi},
+           giveni={N\bibinitperiod}}}%
+      }
+      \name{translator}{1}{}{%
+        {{hash=95aa0bcff5c409e5f67112420affd178}{%
+           family={Bertola},
+           familyi={B\bibinitperiod},
+           given={Bianca},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Torino}%
+      }
+      \list{publisher}{1}{%
+        {Bollati Boringhieri}%
+      }
+      \strng{namehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{fullhash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{bibnamehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{authorbibnamehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{authornamehash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{authorfullhash}{501a5d332cf44e7476c517cc4f69060e}
+      \strng{translatorbibnamehash}{95aa0bcff5c409e5f67112420affd178}
+      \strng{translatornamehash}{95aa0bcff5c409e5f67112420affd178}
+      \strng{translatorfullhash}{95aa0bcff5c409e5f67112420affd178}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{italian}
+      \field{title}{Perchè fidarsi della scienza?}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \keyw{Scienze -- Rapporti -- con la -- Società}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

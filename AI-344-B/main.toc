@@ -1,0 +1,15 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\beamer@sectionintoc {1}{Introduzione}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{Il problema della demarcazione}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Non basta essere empirici}{9}{0}{1}
+\beamer@sectionintoc {2}{Storia del \emph {LCC}}{13}{0}{2}
+\beamer@subsectionintoc {2}{1}{La medicina tra scienza e pratica. Il modello di Parigi}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Medicina di laboratorio e test randomizzati}{20}{0}{2}
+\beamer@sectionintoc {3}{Riforma del \emph {LCC}}{27}{0}{3}
+\beamer@subsectionintoc {3}{1}{L'evidenza empirica in favore dell'omeopatia}{27}{0}{3}
+\beamer@subsectionintoc {3}{2}{L'assenza di cause meccaniche nell'attestare il rischio di parzialità}{31}{0}{3}
+\beamer@subsectionintoc {3}{3}{La medicina tra scienza e pratica. Demarcare l'omeopatia come pseudo-scienza a partire dell'\emph {utilizzo} di evidenza parziale}{35}{0}{3}
+\beamer@sectionintoc {4}{Conclusione}{38}{0}{4}
+\beamer@subsectionintoc {4}{1}{Le assunzioni \emph {metodologiche}}{38}{0}{4}
+\beamer@subsectionintoc {4}{2}{Dove si inserisce la storia del \emph {Like Comparison Criterion} nella storia del problema della demarcazione?}{41}{0}{4}
