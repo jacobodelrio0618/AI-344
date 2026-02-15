@@ -1,0 +1,574 @@
+%Document Properties
+\documentclass[a4paper, 14pt, twoside, notitlepage]{extarticle}
+\title{
+    Diderot e Goethe \\
+    \smaller{\textit{Dalla storia naturale al progresso storico}}
+}
+\author{
+    Jacobo del Río Molano \\%
+    \textit{Teoria e storia dei sistemi filosofici} \\%
+    4 dicembre 2025
+}
+\date{}
+
+\usepackage{preamble}
+
+% Bibliography Packages and management commands (to be put here in order for the
+% bibliographic autocomplete to work)
+
+\usepackage[
+    backend=biber, 
+    style=philosophy-verbose, 
+    latinemph = true,
+    language=italian, 
+    sorting=nyt, 
+    autopunct=false
+]{biblatex}
+
+\usepackage[
+    style=italian, 
+    autopunct=false
+]{csquotes}
+
+\DefineBibliographyStrings{italian}{
+    loccit = {ibid\adddot}, 
+    pages = {pp\adddot}, 
+    opcit = {\unskip\addcomma\addspace cit\adddot}, 
+} 
+
+\addbibresource{bibliography.bib}
+
+% Command to add a comma before "cit.,".
+\renewcommand{\mkcitation}[1]{#1}
+\newenvironment*{smallquote}{\quote\smaller}{\endquote}
+\SetBlockEnvironment{smallquote} \AtBeginEnvironment{quote}{\smaller}
+
+\begin{document}
+\maketitle
+
+\section{L'uomo e la Natura}
+
+\subsection{Dichiarazioni programmatiche} 
+
+\numberedparagraph % 1
+\textsc{Giovane}, %
+\textit{%
+    prendi e leggi. Se riuscirai a leggere quest'opera
+    fino alla fine, non sarai incapace di di comprenderne una migliore
+    [\dots]. Persone più abili di me t'insegneranno a conoscere le
+    forze della Natura; a me sarà sufficiente aver messo alla prova le
+    tue. Addio.%    
+}
+
+\textsc{P.S.} %
+\emph{
+    Ancora una parola e poi ti lascio. Tieni sempre in mente che la
+    \emph{Natura} non è \emph{Dio}, che un \emph{uomo} non è una
+    \emph{macchina}, che un'\emph{ipotesi} non è un \emph{fatto}, e
+    sta certo che non mi avrai ben compreso ogni volta che crederai di
+    individuare qualche cosa di contrario a questi
+    principi\footnotemark.
+}
+%
+\footnotetext{\Cite[405]{diderotPensieriSullinterpretazioneNatura2019}.
+Cfr. \textit{Ibid.}, pp. 439-441; \cite[29, 78-80]{goetheTeoriaNatura}.}
+
+\subsection{L'uomo interiore si indaga nell'interpretazione naturale}
+
+\numberedparagraph % 2
+Scriverò sulla Natura. Lascerò che i pensieri si succedano sotto la
+mia penna secondo lo stesso ordine in cui si offrono alla mia
+riflessione, perché potranno meglio rappresentare i movimenti i
+movimenti e l'andamento del mio spirito %
+\autocite[407]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\vspace{1\baselineskip}
+\numberedparagraph % 3
+Ora confesso che il grande compito, che sembra tanto importante,
+espresso dalla massima \textquote{conosci te stesso}, mi ha sempre
+ispirato qualche sospetto, quasi fosse un'astuzia di preti
+segretamente alleati, che volevano confondere l'uomo ponendogli
+esigenze irraggiungibili e distoglierlo dall'attività verso il mondo
+esterno, inducendolo a una malintesa contemplazione del mondo interno.
+L'uomo conosce se stesso soltanto in quanto conosce il mondo, di cui
+si rende conto soltanto in se stesso, proprio come nel mondo prende
+coscienza di sé. Ogni nuovo oggetto, se ben contemplato, dischiude in
+noi un nuovo organo\footnotemark.
+%
+\footnotetext{\Cite[92-93]{goetheTeoriaNatura}. Cfr. \textit{Ibid.} pp. 146-147.}
+
+\numberedparagraph % 4
+L'interesse della verità richiederebbe che chi riflette si degnasse
+finalmente di associarsi a quelli che si danno da fare in modo che il
+teorizzatore fosse dispensato dal muoversi; che il filosofo manovriero
+avesse uno scopo nei movimenti infiniti che compie; che tutti i nostri
+sforzi si trovassero riuniti e diretti allo stesso tempo contro la
+resistenza della Natura; e che, in questa specie di associazione
+filosofica, ciascuno assumesse il ruolo che gli conviene %
+\autocite[407]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 5
+Anche nelle scienze, a dire il vero, non si sa niente, bisogna sempre
+fare. [\dots] Ogni vero \textit{aper\c{c}u} viene da una serie e
+comporta una serie. È l'anello intermedio di una grande catena che
+aumenta in modo produttivo. [\dots]  La scienza ci aiuta soprattutto
+perché, in qualche modo, diminuisce lo stupore cui per natura
+incliniamo; ma anche perché risveglia nella vita, resa sempre più
+intensa, nuove più elevate capacità, che permettono di eliminare ciò
+che è dannoso e introdurre ciò che è utile %
+\autocite[148]{goetheTeoriaNatura}.%
+
+\subsection{Il materialismo \bsq{spinozista}}
+
+\numberedparagraph % 6
+
+Sembra che la Natura si sia compiaciuta a variare lo stesso meccanismo
+in un'infinità di modi differenti. Essa abbandona un genere di
+produzioni solo dopo averne moltiplicato gli individui sotto tutti gli
+aspetti possibili. Quando si considera il regno animale, e ci si
+accorge che tra i quadrupedi, non ce n'è nessuno che abbia le funzioni
+e le parti, soprattutto quelle interiori, completamente simili a un
+altro quadrupede, non si crederebbe volentieri che ci sia stato un
+primo animale prototipo da cui derivano tutti gli animali, a cui la
+Natura non ha fatto altro che allungare, accorciare, trasformare,
+moltiplicare, annullare certi organi? Immaginate le dita di una mano
+riunite, e la materia delle unghie, così abbondante che estendendosi e
+gonfiandosi, avvolga e copra tutto; al posto di della mano di un uomo,
+avrete il piede di un cavallo %
+\autocite[415]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 7
+
+L'autore [Maupertuis] comincia esponendo rapidamente i sentimenti di
+coloro che l'hanno preceduto, e l'insufficienza dei loro principi per
+lo sviluppo generale dei fenomeni. Alcuni non chiesero che
+l'\emph{estensione} e il \emph{movimento}. Altri credettero di
+aggiungere all'estensione l'\emph{impenetrabilità}, la \emph{mobilità}
+e l'\emph{inerzia} [\dots]. Le operazioni più semplici della chimica,
+o la fisica elementare dei piccoli corpi ha fatto ricorrere a delle
+attrazioni che seguono da altre leggi, e l'impossibilità di esplicare
+la formazione di una pianta o di un animale con le \emph{attrazioni},
+l'inerzia, la mobilità, l'impenetrabilità, il movimento, la materia o
+l'estensione ha condotto il filosofo Baumann [pseudonimo di
+Maupertuis] a supporre altre proprietà ancora nella natura [\dots].
+Quest'essere è il corporeo, queste modificazioni sono il
+\emph{desiderio}, l'\emph{avversione}, la \emph{memoria} e
+l'\emph{intelligenza}; in una parola tutte le qualità che si
+riconoscono negli animali, che gli Antichi comprendevano sotto il nome
+di \emph{anima sensibile}, e che il dottor Baumann ammette, in maniera
+proporzionata alle forme e alle masse, nella particella più piccola di
+materia come nel più grosso animale [\dots]. Cosa impedirà alle parti
+elementari intelligenti e sensibili di allargare all'infinito l'ordine
+che costituisce la specie? Da questo deriva un'infinità di specie
+animali emerse da un primo animale, un'infinità di esseri emanati da
+un primo essere, un solo atto nella natura %
+\autocite[449-451]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 8
+
+Saremo così giunti a poter affermare senza esitazione che tutti gli
+esseri organici più complessi fra cui, i pesci, gli anfibi, gli
+uccelli, i mammiferi e, al sommo di questi, l'uomo, sono formati
+secondo un archetipo che solo varia in misura maggiore o minore nelle
+sue parti più costanti e che, inoltre, si sviluppa e si trasforma
+incessantemente [\dots]. Ma sebbene, concordano ormai sulle linee
+generali, sembrasse di lavorare tutti ad un unico fine, era
+inevitabile che in singoli aspetti sorgessero numerose confusioni.
+Infatti, per quanto gli animali possano, nell'insieme, essere simili,
+certe singole parti presentano forme profondamente diverse nelle
+differenti creature: doveva quindi accadere fin troppo spesso che si
+scambiasse una parte per l'altra, oppure che la si cercasse nel punto
+sbagliato e che, non trovandola, se ne negasse l'esistenza [\dots].
+Afferrata però l'idea di questo Tipo, ci si renderà subito conto che è
+impossibile elevare a cànone un singolo genere. Il singolo non può
+essere il modello dell'insieme; non dobbiamo quindi cercare nel
+singolo un modello universale. Le classi, gli ordini, i generi e gli
+individui si comportano come casi nei confronti della legge; sono in
+essa contenuti, a non la contengono e neppure la fondano %
+\autocite[57-58]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 9
+
+Ma ciascun elemento perderà, accumulandosi e combinandosi, il suo
+piccolo grado di sentimento e di percezione? Per niente, dice il
+dottor Baumann. Queste qualità gli sono essenziali. Cosa accadrà
+dunque? Questo: di queste percezioni di elementi messi insieme e
+combinati, ne risulterà una percezione unica, proporzionata alla massa
+e alla disposizione; e questo sistema di percezione nel quale ciascun
+elemento avrà perduto memoria del \emph{sé} e concorrerà a formare la
+coscienza del \emph{tutto}, sarà l'anima dell'animale [\dots]. È
+adesso che bisogna praticare il nostro metodo all'esame dei suoi
+principi. Gli chiederò dunque se l'universo o la collezione generale
+di tutte le molecole sensibili e pensanti forma un tutto o no [\dots].
+Se si conviene che è un tutto in cui gli elementi non sono meno
+ordinati, che le parti, o realmente distinte, o solamente
+intelligibili, lo sono in un elemento, e gli elementi in un animale,
+bisognerà che ammetta che in conseguenza di questa copulazione
+universale, il mondo simile a un grande animale a un'anima; e che
+potendo il mondo essere infinito, quest'anima del mondo, non dico è,
+ma può essere un sistema infinito di percezioni, e che il mondo può
+essere Dio %
+\autocite[451-453]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 10
+
+L'infinito però, o l'esistenza perfetta, non può essere pensato da
+noi. Noi possiamo pensare soltanto cose che sono o già limitate o
+vengono limitate dal nostro spirito. Perciò abbiamo un concetto
+dell'infinito soltanto in quanto possiamo pensare che vi sia
+un'esistenza perfetta al di fuori della capacità di comprensione di
+uno spirito limitato. Non si può dire che l'infinito abbia delle
+parti. Tutte le esistenze limitate sono nell'infinito, ma non sono
+parti dell'infinito, esse piuttosto partecipano della infinità %
+\autocite[19]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 11
+
+Se d'altra parte definiamo soltanto anatomica la nostra impresa,
+questa, per essere fruttuosa e perfino, nel nostro caso, per essere
+soltanto possibile, dovrebbe venir sempre condotta in stretto rapporto
+alla fisiologia. Non si tratta dunque di limitarsi a considerare le
+parti nel loro coesistere una accanto all'altra, ma di individuarne il
+reciproco vivente influsso, la mutua dipendenza e azione %
+\autocite[60]{goetheTeoriaNatura}.%
+
+\needspace{10\baselineskip}
+\section{Progresso della natura; progresso nella storia}
+
+\subsection{Lo \bsq{spinozismo vitalista}}
+
+\numberedparagraph % 12
+
+Tuttavia l'incoronamento che manca a questo articolo è l'intuizione
+dei due grandi impulsi di tutta la natura: il concetto della
+\emph{polarità} e dell'\emph{accrescimento graduale}, quella propria
+della materia in quanto la pensiamo materiale, questo invece in quanto
+la pensiamo spirituale; quella consiste in un continuo attrarre e
+respingere, questo aspira continuamente verso l'alto. Poiché però la
+materia non esiste né può mai essere efficace senza lo spirito né lo
+spirito senza la materia, anche la materia è suscettibile di
+gradazione, così come lo spirito non tralascia di attrarre e
+respingere; proprio come è capace di pensare soltanto colui che ha
+diviso a sufficienza per collegare e collegato a sufficienza per poter
+nuovamente dividere %
+\autocite[113]{goetheTeoriaNatura}.%
+
+\numberedparagraph % 13
+
+\textsc{Abbozzo} di fisica sperimentale. La fisica sperimentale si
+occupa in generale dell'\emph{esistenza}, delle \emph{qualità}, e
+dell'\emph{impiego} [degli esseri]. L'\textsc{esistenza} comprende la
+\emph{storia}, la \emph{descrizione}, la \emph{generazione}, la
+\emph{conservazione} e la \emph{distruzione}. La \emph{storia} è
+storia dei luoghi, dell'importazione e dell'esportazione, del prezzo,
+dei pregiudizi, ecc. La \emph{descrizione}, dell'interno e
+dell'esterno, attraverso tutte le qualità sensibili. La
+\emph{generazione}, considerata dalla prima origine fino allo stato di
+perfezione. La \emph{conservazione}, di tutti i mezzi di fissarla in
+questo stato. La \emph{distruzione}, presa dallo stato di perfezione
+fino all'ultimo grado conosciuto di \emph{decomposizione} o di
+\emph{deperimento}, di \emph{dissoluzione} o di \emph{scissione} %
+\autocite[421]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\subsection{L'indagine sulla natura}
+
+\numberedparagraph % 14
+
+Una delle verità che sono state annunciate nei nostri giorni con il
+più grande coraggio e forza, che un buon fisico non perderà di vista e
+che avrà certamente le conseguenze più vantaggiose, è che la regione
+dei matematici è un mondo intellettuale, dove quelle che vengono
+considerate verità rigorose perdono completamente questo vantaggio
+quando vengono portate sulla nostra terra. Da questo si è dedotto che
+era la filosofia esperimentale a rettificare i calcoli della
+geometria, e questa conclusione è stata riconosciuta persino dai
+geometri. Tuttavia, a cosa serve correggere il calcolo geometrico con
+l'esperienza? Non è più semplice attenersi al risultato di
+quest'ultima? È evidente che le matematiche, quelle trascendenti
+soprattutto, non conducono a niente di preciso senza l'esperienza; che
+è una specie di metafisica generale in cui i corpi sono spogliati
+delle loro qualità individuali, e che gli resterà almeno da fare una
+grande opera che si potrebbe intitolare l'\textit{Applicazione
+dell'esperienza alla geometria}, o \textit{Trattato dell'aberrazione
+delle misure} %
+\autocite[407]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 15
+
+Un grande compito sarebbe bandire le teorie filosofiche e matematiche
+da quelle parti della fisica in cui invece di aiutare sono di
+ostacolo, e in cui l'elaborazione matematica, per l'unilateralità
+della moderna istruzione scientifica, ha trovato una applicazione così
+sbagliata. [\dots]. Bisognerebbe esporre quale è la vera via
+dell'indagine della natura, come essa si basi sul più semplice
+progredire dell'osservazione, come l'osservazione debba essere elevata
+a esperimento e questo infine conduca al risultato %
+\autocite[138-139]{goetheTeoriaNatura}.%
+
+\numberedparagraph % 16
+
+Quando i geometri hanno screditato i metafisici erano ben lontani dal
+pensare che tutta la loro scienza non fosse altro che una metafisica.
+Ci si chiese un giorno: \textquote{Chi è un metafisico?}. Un geometra
+rispose. \textquote{È un uomo che non sa niente}. I chimici, i fisici,
+i naturalisti, e tutti quelli che si dedicano all'arte esperimentali,
+altrettanto estremi nel loro giudizio, mi sembrano sul punto di
+vendicare la metafisica e di applicare la stessa definizione al
+geometra %
+\autocite[409]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\subsection{Il progresso delle scienze}
+
+\numberedparagraph % 17
+
+Un'altra accusa, che si deve fare contro il procedimento delle
+scienze, è che di tanto in tanto talune discipline conquistano una
+specie di predominio nella scienza e soltanto il tempo può ristabilire
+l'equilibrio. Ciò che è nuovo, la conoscenza di recente acquista,
+stimola la partecipazione degli uomini. Uomini, che si sono segnalati
+occupandosi in modo egregio di queste discipline, le sviluppano
+accuratamente, si fanno degli scolari, collaboratori e seguaci, sicché
+una parte determinata di ciò che è intero si gonfia fino a diventare
+il punto principale, mentre le altre sono già retrocesse nei loro
+confini come partecipi di una totalità.
+
+\numberedparagraph % 18
+
+Le scienze dovrebbero agire sul mondo esterno soltanto con una prassi
+elevata, giacché sono propriamente tutte esoteriche, e soltanto se
+migliorano una qualche azione pratica possono diventare essoteriche.
+Ogni altra partecipazione non conduce a niente [\dots]. Un fatto
+notevole, un \textit{aper\c{c}u} geniale occupa un grandissimo numero
+di uomini, prima solo per conoscerlo, poi per comprenderlo, quindi per
+elaborarlo e portarlo avanti. [\dots] A ogni nuovo fenomeno la massa
+chiede a che cosa serve e non ha torto, giacché può afferrare il
+valore di una cosa soltanto per la sua utilità %
+\autocite[165]{goetheTeoriaNatura}.%
+
+\needspace{4\baselineskip}
+\numberedparagraph % 19
+
+Quando una scienza comincia a svilupparsi, la straordinaria
+considerazione che si ha in società per gli inventori, il desiderio di
+conoscere personalmente una cosa che fa molto scalpore, la speranza di
+diventare celebri grazie a qualche scoperta [\dots] spingono agli
+uomini in quella direzione [\dots]. Tanti sforzi riuniti portano
+rapidamente la scienza fino a dove essa può arrivare. Tuttavia, man
+mano che si comprendono i suoi limiti, si restringono quelli della
+considerazione [\dots]. Allora la folla diminuisce [\dots]. Io non
+faccio eccezione nemmeno per la storia della natura %
+\autocite[411]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 20
+
+Fintanto che le cose restano solo nel nostro intelletto, sono nostre
+opinioni; sono delle nozioni che possono essere vere o false,
+accordate o contraddette. Esse non prendono consistenza che legandosi
+agli esseri esterni. Questo legame si crea attraverso una catena
+ininterrotta di ragionamenti, il cui filo si regge da un lato
+sull'osservazione, e dall'altro sull'esperienza; o remiate una catena
+di esperienze disperse, intramezzate da ragionamenti [\dots] %
+\autocite[411]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\numberedparagraph % 21
+
+C'è solo un mezzo per rendere la filosofia raccomandabile agli occhi
+del volgo, è di mostrarla accompagnata dall'utilità. Il volgo domanda
+sempre: \textit{\textquote{a cosa serve?}} e non bisogna mai trovarsi
+nella situazione di rispondere \textit{\textquote{a niente}}: non sa
+che ciò che illumina il filosofo è ciò che se[r]ve al volgo stesso
+sono due cose molto diverse, poiché l'intelletto del filosofo è spesso
+illuminato da ciò che nuoce, e oscurato da ciò che serve %
+\autocite[419]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\needspace{4\baselineskip}
+\numberedparagraph % 22
+
+D'altra parte l'utile circoscrive tutto. Sarà l'utile che tra qualche
+secolo fisserà dei limiti alla fisica sperimentale, come è sul punto
+di porne alla geometria. Concedo alcuni secoli a questo studio, poiché
+la sfera della sua utilità è infinitamente più estesa di quella di
+qualsiasi scienza astratta, ed essa è, senza alcun dubbio, alla base
+delle nostre vere conoscenze %
+\autocite[411]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\subsection{Il linguaggio e i termini riproduttivi}
+
+\numberedparagraph % 23
+
+Con le parole non esprimiamo pienamente né gli oggetti né noi stessi.
+Con il linguaggio sorge quasi un mondo nuovo, fatto di cose necessarie
+e casuali. \textlatin{\textit{Verba valent sicut nummi}}. Ma vi è
+differenza tra le varie monete. Ce ne sono d'oro, d'argento, di rame e
+vi è anche la carta moneta. Nelle prime vi è più o meno realtà,
+nell'ultima soltanto la convenzione %
+\autocite[38]{goetheTeoriaNatura}.%
+
+
+\numberedparagraph % 24
+
+Nel primo brano da noi tradotto, d'Alembert paragona una serie di
+proposizioni geometriche derivate l'una dall'altra ad una specie di
+traduzione da un idioma in un altro che si sarebbe sviluppato dal
+prim, in questa concatenazione però sarebbe contenuta soltanto la
+prima proposizione, anche se resa più accessibile all'uso: posto e non
+concesso che in una impresa, già dubbia di suo, si sia riusciti a
+mantenere una estrema stabilità %
+\autocite[106]{goetheTeoriaNatura}.%
+
+\numberedparagraph % 25
+
+La filosofia esperimentale potrebbe lavorare per secoli e secoli, ma i
+materiali che essa accumulerebbe sarebbero ancora molto lontani da
+un'enumerazione esatta. Quanti volumi sarebbero necessari solo per
+contenere i termini dei quali ci serviamo per designare gli insiemi
+distinti dei fenomeni, se conoscessimo i fenomeni? Quando sarà
+completa la lingua filosofica? E quand'anche fosse completa, chi tra
+tutti gli uomini potrebbe conoscerla? Se l'Eterno per manifestare la
+sua onnipotenza in modo ancora più evidente che attraverso le
+meraviglie della Natura si fosse degnato di sviluppare il meccanismo
+universale su dei fogli tracciati di sua mano; crediamo forse che
+questo grande libro sarebbe più comprensibile per noi che l'universo
+stesso? %
+\autocite[411]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\subsection{I diversi modelli di scienza}
+
+\numberedparagraph % 26
+
+Cuvier lavora senza posa come analista, come meticoloso descrittore, e
+conquista un sicuro dominio su un territorio immenso. Geoffroy de
+Saint-Hilaire, invece, si occupa in silenzio delle analogie fra gli
+esseri viventi e delle loro misteriose affinità: quegli va dal singolo
+al tutto, che è bensì considerato presupposto, ma come giammai
+riconoscibile; questi persegue la conoscenza del tutto nel suo
+significato interno, e vive nell'incrollabile certezza che il singolo
+potrà essere poco a poco enucleato [\dots]. Sono qui in gioco due
+diversi modi di pensare, che nella specie umana si trovano per lo più
+divisi e distribuiti in maniera tale che, nella scienza come dovunque,
+difficilmente s'incontrino appaiati, ed essendo distinti, non si
+lasciano agevolmente ricongiungere %
+\autocite[77-78]{goetheMetamorfosiDeliAnimali1986}%
+
+\numberedparagraph % 27
+
+Cuvier si attiene decisamente e in modo, e in modo sistematicamente
+ordinatore, al singolo; diciamo sistematicamente ordinatore, perché
+una visione complessiva superiore gli suggerisce, anzi gli impone, un
+\emph{metodo} di presentazione ed esposizione dei fatti. Conformemente
+al suo modo di pensare in termini complessivi, Geoffroy cerca invece
+di penetrare nel Tutto, visto però, diversamente da Buffon, non nel
+presente, nell'esistente, nel già formato, ma nell'agente, nel
+diveniente, in ciò che si evolve [\dots] %
+\autocite[89-90]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 28
+
+Possa ciascuno di noi, a proposito di questa controversia, dire che
+scindere e collegare sono due atti di vita inseparabili. O meglio,
+forse, che è indispensabile, lo si voglia o no, andare dal Tutto al
+singolo e dal singolo al Tutto, e che quanto più vitalmente queste due
+funzioni dello stesso spirito, come l'espirare e l'inspirare,
+procedano unite, tanto meglio si opera per il bene della scienza e dei
+loro cultori %
+\autocite[91]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 29
+
+Se ci si limita a vedere soltanto ciò che risponde alla norma, si
+finisce per credere che così necessariamente debba essere, che così
+esso sia stato determinato \textlatin{\textit{ad ovo}}, e che sia,
+quindi, immutabile. Se invece si osservano le deviazioni della norma,
+le malformazioni, le mostruosità, si è costretti a riconoscere che la
+regola è bensì fissa ed eterna, ma nello stesso tempo viva; che nel
+suo ambito, se non per diretta derivazione, gli esseri possono bensì
+degenerare nell'informe, ma devono ogni volta, come trattenuti da
+briglie, piegarsi all'assoluta sovranità della legge %
+\autocite[92]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 30
+
+La stretta parentela fra scimmia e uomo costrinse i naturalisti a
+minuziose riflessioni, e l'insigne Camper ritenne di aver scoperto la
+differenza fra scimmia ed uomo nel fatto che quella è dotata di un
+osso intermedio del mascellare inferiore e a questo, invece, esso
+manca. Non posso che esprimere il mio dolore nel trovarmi in aperto
+contrasto con lui verso il quale avevo contratto un debito così forte
+[\dots] %
+\autocite[94-95]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 31
+
+Ora Geoffroy ha giustamente individuato e formulato l'importante
+principio -- dal quale non si deve mai prescindere nell'osteologia --
+secondo cui ogni particolare osso che sembri celarsi alla nostra
+indagine può sempre essere scoperto con la massima sicurezza nella
+regione in cui è situata la sua sede. Egli inoltre è convinto di
+un'altra fondamentale verità, direttamente rapportabile al tema che
+andiamo svolgendo; vale a dire che la natura, ubbidendo a un principio
+di economia, si è fissato un bilancio preventivo e, pur riservandosi
+per i singoli capitoli la più assoluta libertà, ad esso si attiene
+fedelmente nella loro somma totale, e se in una parte ha speso troppo,
+nell'altra risparmia, ristabilendo così nel modo più scrupoloso
+l'equilibrio %
+\autocite[103]{goetheMetamorfosiDeliAnimali1986}.%
+
+\numberedparagraph % 32
+
+La \emph{meraviglia} sorge spesso dal fatto che presupponiamo numerosi
+prodigi laddove ce n'è uno solo; dal fatto che immaginiamo nella
+Natura tanti atti particolari quanti sono i fenomeni, quando forse
+essa ha prodotto un solo atto. Sembra anche che, se avesse avuto la
+necessità di produrne numerosi, i differenti risultati di questi atti
+sarebbero isolati; ci sarebbero delle collezioni di fenomeni
+indipendenti le une dalle altre, e questa catena generale di cui la
+filosofia presuppone la continuità, si romperebbe in numerosi pezzi.
+L'indipendenza assoluta di un solo fatto è incompatibile con l'idea
+del tutto; e senza l'idea dtotalitàel tutto, non c'è più filosofia %
+\autocite[413]{diderotPensieriSullinterpretazioneNatura2019}.%
+
+\needspace{20\baselineskip}
+\pagestyle{plain}
+\printbibliography
+\section*{Contenuti}
+\tableofcontents
+
+% \section{\textquote{Metamorfosi deli animali}}
+%
+% \subsection{La scienza e il tutto}
+%
+% Ma come non potremmo sentirci spronati a soddisfare questi desideri,
+% queste speranze dei naturalisti, noi che, se resteremo fedeli alla
+% visione del Tutto, potremo attenderci innumerevoli soddisfazioni e,
+% insieme, molteplici vantaggi per la scienza? %
+% \autocite[53]{goetheMetamorfosiDeliAnimali1986}%
+%
+% \subsection{L'archetipo}
+%
+% Saremmo così giunti a poter affermare senza esitazione che tutti gli
+% esseri organici più complessi, fra cui i pesci, gli anfibi, gli
+% uccelli, i mammiferi e, al sommo di questi, l'uomo, sono formati
+% secondo un archetipo che solo varia in misura maggiore o minore nelle
+% sue parti più costanti e che, inoltre, si sviluppa e si trasforma
+% incessantemente %
+% \autocite[57]{goetheMetamorfosiDeliAnimali1986}.%
+%
+% \vspace{1\baselineskip}
+%
+% Ma allora, è realmente impossibile, avendo riconosciuto che l'energia
+% creativa produce secondo uno schema generale le nature organiche più
+% complete, presentare questo archetipo se non ai sensi almeno allo
+% spirito, utilizzandolo come norma per completare le nostre descrizioni
+% e, dopo averlo dedotto dalla forma dei diversi animali, ricondurre
+% nuovamente ad esso le forme più diverse? %
+% \autocite[58]{goetheMetamorfosiDeliAnimali1986}%
+%
+% \subsection{Il cambiamento \emph{impercettibile} della natura}
+%
+% L'armonia di un tutto organico è infatti resa possibile proprio dal
+% suo essere composto da parti identiche che si modificano attraverso
+% mutamenti quasi impercettibili %
+% \autocite[68]{goetheMetamorfosiDeliAnimali1986}.%
+
+
+\end{document}

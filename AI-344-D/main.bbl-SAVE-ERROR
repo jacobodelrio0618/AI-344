@@ -1,0 +1,112 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{diderotPensieriSullinterpretazioneNatura2019}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=950bfe30d162b26e5f59890903f0f889}{%
+           family={Diderot},
+           familyi={D\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=19e22d86600f3360e40122bf755933f9}{%
+           family={Quintili},
+           familyi={Q\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=92e28fcebe1b18bc5fb253b6eafc1718}{%
+           family={Sperotto},
+           familyi={S\bibinitperiod},
+           given={Valentina},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Milano}%
+      }
+      \list{publisher}{1}{%
+        {Bompiani}%
+      }
+      \strng{namehash}{950bfe30d162b26e5f59890903f0f889}
+      \strng{fullhash}{950bfe30d162b26e5f59890903f0f889}
+      \strng{bibnamehash}{950bfe30d162b26e5f59890903f0f889}
+      \strng{authorbibnamehash}{950bfe30d162b26e5f59890903f0f889}
+      \strng{authornamehash}{950bfe30d162b26e5f59890903f0f889}
+      \strng{authorfullhash}{950bfe30d162b26e5f59890903f0f889}
+      \strng{editorbibnamehash}{5a12c8b201da7fa67ce2f7d2e3df8d28}
+      \strng{editornamehash}{5a12c8b201da7fa67ce2f7d2e3df8d28}
+      \strng{editorfullhash}{5a12c8b201da7fa67ce2f7d2e3df8d28}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Opere filosofiche, romanzi e racconti}
+      \field{langid}{Italian, French}
+      \field{shorttitle}{Pensieri}
+      \field{title}{Pensieri sull'interpretazione della natura}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{397\bibrangedash 473}
+      \range{pages}{77}
+    \endentry
+    \entry{goetheMetamorfosiDeliAnimali1986}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c5dc2863a151ac1a43c24cfdcb109dff}{%
+           family={Goethe},
+           familyi={G\bibinitperiod},
+           given={Johann\bibnamedelima Wolfgang},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a3205b161b1712dee7ed3d7961311cb0}{%
+           family={Maffi},
+           familyi={M\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Milano}%
+      }
+      \list{publisher}{1}{%
+        {SE}%
+      }
+      \strng{namehash}{c5dc2863a151ac1a43c24cfdcb109dff}
+      \strng{fullhash}{c5dc2863a151ac1a43c24cfdcb109dff}
+      \strng{bibnamehash}{c5dc2863a151ac1a43c24cfdcb109dff}
+      \strng{authorbibnamehash}{c5dc2863a151ac1a43c24cfdcb109dff}
+      \strng{authornamehash}{c5dc2863a151ac1a43c24cfdcb109dff}
+      \strng{authorfullhash}{c5dc2863a151ac1a43c24cfdcb109dff}
+      \strng{editorbibnamehash}{a3205b161b1712dee7ed3d7961311cb0}
+      \strng{editornamehash}{a3205b161b1712dee7ed3d7961311cb0}
+      \strng{editorfullhash}{a3205b161b1712dee7ed3d7961311cb0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{italian}
+      \field{title}{Metamorfosi deli animali}
+      \field{year}{1986}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,128 @@
+%cspell:disable
+\ProvidesPackage{preamble}
+
+%Style and general Packages
+\usepackage[utf8]{inputenc}
+\usepackage{titling}
+\usepackage[main=italian, latin, polutonikogreek, english]{babel}
+\usepackage[or]{teubner} % This is for ancient Greek.
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage[raggedright]{titlesec}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage[footnotesep=30pt, a4paper,top=4cm,bottom=3cm,left=3cm,right=3cm]{geometry}
+\usepackage{setspace}
+\usepackage[indent, skip=0pt]{parskip}
+\usepackage{changepage}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{gensymb}
+\usepackage{forest}
+\usepackage{booktabs} % For \midrule macro.
+\usepackage{caption}
+\usepackage[osf]{ebgaramond}
+\usepackage[norule, flushmargin, abovefloats]{footmisc}
+\usepackage{setspace}
+\usepackage{relsize}
+\usepackage{subfiles} % Best loaded last in the preamble
+
+% Command for single quotes
+\def\bsq#1{
+\lq{#1}\rq}
+
+%This snippet allows to insert a blank page (without style) with the command «\blankpage».
+\def\blankpage{
+	\clearpage
+	\thispagestyle{empty}
+	\null
+	\clearpage}
+
+%Headers and Footers Formatting
+\renewcommand{\headrulewidth}{0pt}
+
+
+\pagestyle{fancy}
+\fancyhead{} %  all header fields
+\fancyhead[LE, RO]{
+    \thepage
+    }  
+\fancyhead[RE]{
+        \scshape\MakeLowercase{\leftmark}
+    }	  
+\fancyhead[LO]{
+        \scshape\MakeLowercase{\rightmark}
+    }
+\fancyfoot[C]{} % clear all footer fields
+
+%Titles Formatting
+
+% Move title higher on the page
+\setlength{\droptitle}{-4cm}  % adjust -2cm to -4cm as needed
+
+% Custom title format
+\pretitle{%
+  \begin{flushleft}
+  \Large     % smaller than default \Huge
+}
+\posttitle{\end{flushleft}}
+
+% Custom author/date block to right side
+\preauthor{\begin{flushright}\small}
+\postauthor{\end{flushright}}
+
+\titleformat{\section}[block]%
+  {\nohyphenation\singlespacing\Large}%
+  {\thesection.}%
+  {8pt}%
+  {}%
+
+\titleformat{\subsection}[block]
+  {\nohyphenation\singlespacing\large\needspace{2\baselineskip}}
+  {\normalfont\thesection.\thesubsection.}
+  {8pt}
+  {}
+  [\vspace{1ex}]
+
+
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+
+\newcounter{numpara}
+
+\newcommand{\numberedparagraph}{%
+  \refstepcounter{numpara}%
+  \par\vspace{1ex}%
+  \begin{center}
+    \large \thenumpara%
+  \end{center}
+  \vspace{0.5ex}%
+}
+
+\titlespacing*{\section}{5pt}{0pt}{10pt}[3cm]
+\titlespacing*{\subsection}{0pt}{15pt}{5pt}[4cm]
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1em}[4cm]
+
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\renewcommand{\subsectionmark}[1]{\markright{#1}}
+
+\renewcommand{\footnotelayout}{\hspace{0.3em}}
+%The following two commands must have the same values.
+\renewcommand{\hangfootparindent}{1.3em}
+\renewcommand{\footnotemargin}{1.3em}
+
+\renewcommand\tableofcontents{\@starttoc{toc}}
+
+\raggedbottom
+
+
+
+
+
+
+
